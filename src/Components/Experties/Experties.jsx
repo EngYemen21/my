@@ -33,9 +33,7 @@ export const Experties = () => {
         <div  className={` ypaddings innerWidth ${css.headling}`}>
           <div>
             <span className={`primaryText ypaddings`}>What I do for my Clients</span>
-            {/* <p style={{ marginTop: "10px" }} className="secondaryText">
-              Perfact solution for digital experience
-            </p> */}
+           
           </div>
         </div>
         {/* <h2>What I do for my Clients</h2> */}
@@ -48,7 +46,6 @@ export const Experties = () => {
                 key={i}
               >
                 <div className={css.card}>
-                  {/* <div className={`${css["item"]} ${css["item--2"]}`} >  */}
                   <div className={`${css["item"]} ${css[updatedClasses[i]]}`}>
                     <exp.icon
                       size={25}
@@ -67,33 +64,12 @@ export const Experties = () => {
                   </div>
                 </div>
 
-                {/* <span>{exp.name} </span>
-                  <span className="secondaryText">{exp.projects} Projects</span> */}
+               
               </motion.div>
             );
           })}
         </div>
-        {/* <motion.div variants={textVariant(0.5)} className={css.rightSide}>
-          <span className="primaryText">What do I help</span>
-
-          {WhatDoIHelp.map((inf, i) => {
-            return (
-              <span className="secondaryText" key={i}>
-                {inf}
-              </span>
-            );
-          })}
-          <div className={`flexCenter ${css.stats}`}>
-            <div className={`flexCenter ${css.stat}`}>
-              <span className="primaryText">285+</span>
-              <span className="secondaryText">Project Completed</span>
-            </div>
-            <div className={`flexCenter ${css.stat}`}>
-              <span className="primaryText">194+</span>
-              <span className="secondaryText">Happy Clients</span>
-            </div>
-          </div>
-        </motion.div> */}
+     
       </div>
     </motion.section>
   );

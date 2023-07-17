@@ -92,39 +92,9 @@ export const Portfilo = () => {
 </motion.div>
 
 
-            {/* <motion.img 
-            variants={fadeIn("up","tween",0.5,0.6)}
-            src="./Delivery.jpg" alt="Project" /> */}
-              {/* <motion.img 
-            variants={fadeIn("up","tween",0.7,0.6)}
-            src="./gym.jpg" alt="Project" />
-              <motion.img 
-            variants={fadeIn("up","tween",0.9,0.6)}
-            src="./website AcademiLearning.jpg" alt="Project" />
-
-<motion.img 
-            variants={fadeIn("up","tween",0.5,0.6)}
-            src="./Smart Watch.jpg" alt="Project" />
-              <motion.img 
-            variants={fadeIn("up","tween",0.7,0.6)}
-            src="./NonaProduct.jpg" alt="Project" />
-              <motion.img 
-            variants={fadeIn("up","tween",0.9,0.6)}
-            src="./timerTime.jpg" alt="Project" /> */}
-           
+          
            </div>
-           {/* <div className={`flexCenter ${ css.showCase}`}>
-            <motion.img 
-            variants={fadeIn("up","tween",0.5,0.6)}
-            src="./Smart Watch.jpg" alt="Project" />
-              <motion.img 
-            variants={fadeIn("up","tween",0.7,0.6)}
-            src="./NonaProduct.jpg" alt="Project" />
-              <motion.img 
-            variants={fadeIn("up","tween",0.9,0.6)}
-            src="./timerTime.jpg" alt="Project" />
-           </div> */}
-           
+         
         </div>
 
 

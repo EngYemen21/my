@@ -131,43 +131,6 @@ const handleSubmite=(e)=>{
         </div>
       </div>
     </section>
-    // <motion.section
-    // variants={staggerChildren}
-    // initial="hidden"
-    // whileInView="show"
-
-    // className={`paddings ${ css.warpper }`}>
-    //     <motion.div
-    //     variants={footerVariants}
-    //     className={`flexCenter ypaddings innerWidth ${ css.container }`}>
-    //         <div className={css.left}>
-    //             <span className="primaryText">
-    //                 Let's make somthing <br/> amazing together.
-
-    //             </span>
-    //             <span className='primaryText'>
-    //                 start by <a href='mailto:m.bander.it@gmail.com'>Saying Hi</a>
-
-    //             </span>
-    //         </div>
-    //         <div className={css.right}>
-
-    //                 <div className={css.infoFooter}>
-    //                     <span className="peimaryText">Information</span>
-    //                     <p>Jamal Streat , Taiz - Yemen</p>
-
-    //                 </div>
-    //                 <div className={css.menu}>
-    //                     <li>Service</li>
-    //                     <li>Works</li>
-    //                     <li>Notes</li>
-    //                     <li>Experience</li>
-    //                 </div>
-
-    //              </div>
-
-    //         </motion.div>
-
-    //         </motion.section>
+ 
   );
 };

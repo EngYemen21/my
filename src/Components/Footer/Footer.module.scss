@@ -2,11 +2,7 @@
 
 .warpper {
 
-    // background: white;
-    // background-image: url(wallpaper3.jpg);
-    // background-repeat: no-repeat;
-    // background-position: center;
-    // background-size: cover;
+  
     .container {
 
         .boxFooter {
@@ -129,12 +125,6 @@
 
                                 }
 
-                                //    input:placeholder-shown+ label {
-                                //         top: 10px;
-                                //         background-color: transparent;
-
-
-                                // }
                                 label {
                                     font-size: 16px;
                                     color: rgb(255, 255, 255);
@@ -158,10 +148,7 @@
                                     width: 100%;
                                     box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 16px;
                                     background-color: transparent;
-                                    //    &:focus,
-                                    //    &:focus {
-                                    //         border-color: #ffffff;
-                                    //       }
+                                   
 
 
                                 }
@@ -189,40 +176,8 @@
                     }
 
 
-                    //  
 
-
-
-
-                    //   .form .group input:focus+ label, .form .group textarea:focus +label {
-                    //     top: -10px;
-                    //     left: 10px;
-                    //     background-color: #fff;
-                    //     color: #3366cc;
-                    //     font-weight: 600;
-                    //     font-size: 14px;
-                    //   }
-
-                    //   .form .group textarea {
-                    //     resize: none;
-                    //     height: 100px;
-                    //   }
-
-                    //   .form button {
-                    //     background-color: #3366cc;
-                    //     color: #fff;
-                    //     border: none;
-                    //     border-radius: 5px;
-                    //     padding: 10px;
-                    //     font-size: 16px;
-                    //     cursor: pointer;
-                    //     transition: all 0.3s ease;
-                    //   }
-
-                    //   .form button:hover {
-                    //     background-color: #27408b;
-                    //   }
-
+                
                 }
             }
         }
@@ -234,58 +189,3 @@
 }
 
 
-//     .container{
-//         @media (max-width:$sm) {
-//             flex-direction: column;
-//             gap:2rem;
-//             align-items: flex-start;
-
-//         }
-//         gap:2rem;
-//         .left{
-//             flex:3;
-//             >*{
-//                 display: block;
-//             }
-//             >:nth-child(2)
-//             {
-//                 margin-top: 2rem;
-//                 a{
-//                     text-decoration: underline;
-//                     color:orange;
-
-//                 }
-//             }
-//         }
-//         .right{
-//                 flex:1;
-//                 .infoFooter{
-//                     margin-bottom: 1rem;
-//                     >*{
-//                         display: block;
-//                     }
-
-//                 }
-//                 .menu{
-//                     @media (max-width:$sm){
-//                         flex-direction: row;
-//                         flex-wrap: wrap;
-//                     }
-//                     display: flex;
-//                     flex-direction: column;
-//                     gap:2rem;
-//                     list-style: none;
-//                     li{
-//                         cursor: pointer;
-//                         &:hover{
-//                             color:orange
-
-//                         }
-//                     }
-//                 }
-
-
-
-// }
-//     }
-// }
