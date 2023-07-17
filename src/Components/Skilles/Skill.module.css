@@ -1,0 +1,59 @@
+.warpper .container .StyleBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  gap: 2rem;
+}
+
+@media (max-width: 640px), (max-width: 769px), (max-width: 1280px) {
+  .warpper .container .StyleBox {
+    width: 100%;
+  }
+}
+
+.warpper .container .box {
+  margin: 1rem;
+  width: 150px;
+  height: 150px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 16px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 16px;
+  background-color: transparent;
+  border-start-end-radius: 20%;
+  border-end-end-radius: 20%;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  border-left: 6px solid #22009C;
+}
+
+.warpper .container .box img {
+  width: 90px;
+  display: block;
+  margin: auto;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.warpper .container .box img:hover {
+  scale: 1.2;
+}
+
+.warpper .container .box p {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.warpper .container .box p:hover {
+  color: #22009C;
+}
+/*# sourceMappingURL=Skill.module.css.map */

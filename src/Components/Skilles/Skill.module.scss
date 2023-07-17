@@ -1,0 +1,59 @@
+@import "../../styles/contants.scss";
+
+
+  .warpper{
+    .container {
+       
+        .StyleBox{
+            @media (max-width:$sm) , (max-width:$md) ,(max-width:$xl) {
+                width:100%;
+           
+                
+            }
+            display: flex;
+       
+            flex-wrap: wrap !important;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            gap:2rem;
+        }
+        .box{
+          
+            margin: 1rem;
+            width:150px;
+            height: 150px;
+            box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 16px ;
+            background-color:transparent;
+            // border-radius: 20%;
+            border-start-end-radius: 20%;
+            border-end-end-radius: 20%;
+            border:none;
+            outline: none;
+             box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;;
+             border-left: 6px solid #22009C;
+
+            img{
+                width:90px;
+                display: block;
+                margin: auto;
+                transition: all 1s;
+                &:hover{
+                  scale:(1.2);
+              
+                }
+
+            }
+          
+          
+            p{
+                text-align: center;
+                margin-top:1.5rem;
+                &:hover{
+                    color:#22009C;
+                }
+            }
+
+        }
+    }
+  }

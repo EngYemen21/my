@@ -1,0 +1,100 @@
+.warpper {
+  overflow: hidden;
+}
+
+.warpper .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.warpper .container .headling {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.warpper .container .headling > :nth-child(2) {
+  text-decoration: underline;
+  color: crimson;
+  cursor: pointer;
+}
+
+.warpper .container .showCase {
+  width: 90%;
+  gap: 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.warpper .container .showCase .card {
+  width: 300px;
+  height: 360px;
+  background: white;
+  padding: .4em;
+  border-radius: 6px;
+}
+
+@media (max-width: 769px) {
+  .warpper .container .showCase .card {
+    width: 70%;
+  }
+}
+
+.warpper .container .showCase .card .cardimage {
+  background-color: #ececec;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  border-radius: 6px 6px 0 0;
+}
+
+.warpper .container .showCase .card .cardimage img {
+  width: 100%;
+  background-color: aqua;
+}
+
+@media (max-width: 769px) {
+  .warpper .container .showCase .card .cardimage img {
+    width: 100%;
+    height: 260px;
+  }
+}
+
+.warpper .container .showCase .card .cardimage:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.warpper .container .showCase .card .category {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 600;
+  color: #3f79e6;
+  padding: 10px 7px 3px;
+}
+
+.warpper .container .showCase .card .category:hover {
+  cursor: pointer;
+}
+
+.warpper .container .showCase .card .heading {
+  font-weight: 600;
+  font-size: 15px;
+  color: #585757;
+  padding: 7px;
+}
+
+.warpper .container .showCase .card .heading:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=Portfilo.module.css.map */

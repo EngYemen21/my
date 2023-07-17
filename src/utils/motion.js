@@ -84,7 +84,7 @@ export const fadeIn = (direction, type, delay, duration) => ({
     opacity: 0,
   },
   show: {
-    x: 0,
+    x:0,
     y: 0,
     opacity: 1,
     transition: {
@@ -146,8 +146,8 @@ export const staggerChildren = {
 
 
 export const getMenuStyles = (menuOpened) => {
-  if (document.documentElement.clientWidth <= 640) {
-    console.log("outside of sidebar reached")
-    return { right: !menuOpened && "-100%" };
+  if (document.documentElement.clientWidth <= 770) {
+   
+    return {right: !menuOpened && "200%" };
   }
 };

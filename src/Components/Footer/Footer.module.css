@@ -1,0 +1,172 @@
+.warpper .container .boxFooter {
+  width: 100%;
+  background-image: url(wallpaper1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
+}
+
+.warpper .container .boxFooter .Footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 2rem;
+}
+
+@media (max-width: 640px), (max-width: 769px) {
+  .warpper .container .boxFooter .Footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.warpper .container .boxFooter .Footer .leftSide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.warpper .container .boxFooter .Footer .leftSide .box {
+  width: 50%;
+  margin: 1rem;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 16px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 16px;
+  background-color: transparent;
+  border-start-end-radius: 20%;
+  border-end-end-radius: 20%;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  border-left: 6px solid #22009C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 640px), (max-width: 769px), (max-width: 1280px) {
+  .warpper .container .boxFooter .Footer .leftSide .box {
+    width: 100%;
+  }
+}
+
+.warpper .container .boxFooter .Footer .leftSide .box img {
+  width: 30px;
+  display: block;
+  margin: auto;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.warpper .container .boxFooter .Footer .leftSide .box p a {
+  color: white;
+}
+
+.warpper .container .boxFooter .Footer .leftSide p {
+  line-height: 2.2rem;
+  width: 100%;
+}
+
+.warpper .container .boxFooter .Footer .rightSide .card {
+  border-radius: 10px;
+  padding: 25px;
+  width: 390px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+}
+
+@media (min-width: 640px), (max-width: 769px), (max-width: 1280px) {
+  .warpper .container .boxFooter .Footer .rightSide .card {
+    width: 350px;
+  }
+}
+
+.warpper .container .boxFooter .Footer .rightSide .card .title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.warpper .container .boxFooter .Footer .rightSide .card .form {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.warpper .container .boxFooter .Footer .rightSide .card .form .group {
+  position: relative;
+}
+
+.warpper .container .boxFooter .Footer .rightSide .card .form .group input:focus,
+.warpper .container .boxFooter .Footer .rightSide .card .form .group textarea:focus {
+  border-color: #040505;
+}
+
+.warpper .container .boxFooter .Footer .rightSide .card .form .group label {
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  z-index: 1;
+}
+
+.warpper .container .boxFooter .Footer .rightSide .card .form .group input,
+.warpper .container .boxFooter .Footer .rightSide .card .form .group textarea {
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  outline: 0;
+  width: 100%;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 16px;
+          box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 16px;
+  background-color: transparent;
+}
+
+.warpper .container .boxFooter .Footer .rightSide .card button {
+  background-color: #3366cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 19px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.warpper .container .boxFooter .Footer .rightSide .card button:hover {
+  background-color: #352a88;
+}
+/*# sourceMappingURL=Footer.module.css.map */
