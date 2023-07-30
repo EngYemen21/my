@@ -4,6 +4,10 @@ import { motion } from "framer-motion";
 import Resume from '../../../public/CV.pdf'
 import { fadeIn, staggerContainer } from "../../utils/motion";
 import { BiHome, BiShare } from "react-icons/bi";
+import linkdin from '../../../public/iconpng/linkdin.png';
+import github from '../../../public/iconpng/github.png';
+import Whatsapp from '../../../public/iconpng/Whatsapp.png';
+import Twitter1 from '../../../public/iconpng/Twitter1.png';
 
 export const Hero = () => {
   const [About, setAbout] = useState(false);
@@ -96,21 +100,21 @@ className={css.buttons}>
   </button>
   <button className={`${css.githubButton}  ${css.button}`}
    style={{ style:"transition-delay: 0s, 0s, 0s, transition-property: translate, background, box-shadow" }}>
-            <img src="/iconpng/github.png" style={{ height:"30px" ,width:"30px" }} alt="" />
+            <img src={github} style={{ height:"30px" ,width:"30px" }} alt="" />
    </button>
 
 
    
    <button className={`${css.TwitterButton}  ${css.button}`}
    style={{ style:"transition-delay: 0.2s, 1s, 0.2s, transition-property: translate, background, box-shadow"}}>
-            <img src="/iconpng/Twitter1.png" style={{ height:"30px" ,width:"30px" }} alt="" />
+            <img src={Twitter1} style={{ height:"30px" ,width:"30px" }} alt="" />
 
    
    </button>
   
    <button className={`${css.WhatsappButton}  ${css.button}`}
    style={{ style:"transition-delay: 0.2s, 1s, 0.2s, transition-property: translate, background, box-shadow;"}}>
-            <img src="/iconpng/Whatsapp.png" style={{ height:"30px" ,width:"30px" }} alt="" />
+            <img src={Whatsapp} style={{ height:"30px" ,width:"30px" }} alt="" />
 
    
    </button>
@@ -119,7 +123,7 @@ className={css.buttons}>
    <button className={`${css.linkdinButton}  ${css.button}`}
    style={{ style:"transition-delay: 0.2s, 1s, 0.2s,transition-property: translate, background, box-shadow"}}>
 
-<a href="#"><img src="/iconpng/linkdin.png" style={{ height:"30px" ,width:"30px" }} alt="" /></a>
+<a href="#"><img src={linkdin} style={{ height:"30px" ,width:"30px" }} alt="" /></a>
    
    </button>
 </motion.div>

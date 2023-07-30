@@ -104,17 +104,17 @@ const handleSubmite=(e)=>{
 <div className={css.group}>
     <input name="user_name"    type="text" required="" value={name} onChange={(e)=>{setName(e.target.value)}} />
     <label htmlFor="name">Name</label>
-    {errorName && (<div  style={{ color:"white" , marginBottom:"5px" ,position:"relative" ,top:"-15px"  ,fontSize:"11px"}}>{errorName}</div>)}
+    {errorName && (<div  style={{ color:"red" , marginBottom:"5px" ,position:"relative" ,top:"-15px"  ,fontSize:"11px"}}>{errorName}</div>)}
     </div>
 <div className={css.group}>
     <input   type="email" id="email" name="user_email" required="" value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
     <label htmlFor="email">Email</label>
     </div>
-    {errorEmail && (<div  style={{ color:"white"  , marginBottom:"5px" ,position:"relative" ,top:"-15px"  ,fontSize:"11px"}}>{errorEmail}</div>)}
+    {errorEmail && (<div  style={{ color:"red"  , marginBottom:"5px" ,position:"relative" ,top:"-15px"  ,fontSize:"11px"}}>{errorEmail}</div>)}
 <div className={css.group}>
     <textarea id="comment" name="message" rows="5" required="" value={comment} onChange={(e)=>{setComment(e.target.value)}}/>
     <label htmlFor="comment">Comment</label>
-    {errorComment && (<div  style={{ color:"white" , marginBottom:"5px" ,position:"relative" ,top:"-15px"  ,fontSize:"11px"}}>{errorComment}</div>)}
+    {errorComment && (<div  style={{ color:"red" , marginBottom:"5px" ,position:"relative" ,top:"-15px"  ,fontSize:"11px"}}>{errorComment}</div>)}
 </div>
     <button type="submit" onClick={()=>{
 

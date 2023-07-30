@@ -3,6 +3,12 @@ import css from './Portfilo.module.scss'
 import { motion } from 'framer-motion'
 import { fadeIn, staggerChildren } from '../../utils/motion'
 import { BiStreetView } from 'react-icons/bi'
+import Delivery from '../../../public/images/Delivery.jpg';
+import gym from '../../../public/images/gym.jpg';
+import AcademiLearning from '../../../public/images/website AcademiLearning.jpg';
+import timerTime from '../../../public/images/timerTime.jpg';
+import NonaProduct from '../../../public/images/NanoCamp.jpg';
+import Watch from '../../../public/images/Smart Watch.jpg';
 export const Portfilo = () => {
   return (
     <motion.section
@@ -22,16 +28,16 @@ export const Portfilo = () => {
                 <motion.span className="primaryText" variants={fadeIn("left","tween",0.5,0.6)} >My Latest Works</motion.span>
                 {/* <p style={{ marginTop:"10px" }} className="secondaryText">Perfact solution for digital experience</p> */}
             </div>
-            <span className="secondaryText">
+            {/* <span className="secondaryText">
                 Explore More Works
-            </span>
+            </span> */}
            </div>
            <div className={`flexCenter ${ css.showCase}`}>
 
 
            <motion.div className={ css.card}  variants={fadeIn("down","tween",0.5,0.6)} >
     <div  className={ css.cardimage} >
-      <img   src="./Delivery.jpg" alt="Project" /> 
+      <img   src={Delivery}alt="Project" /> 
     </div>
     <div className={ css.category}> <a  href="">Github</a>  </div>
     <div className={ css.heading} > project Delivery HTML+CSS+js+JQuery+Php
@@ -40,7 +46,7 @@ export const Portfilo = () => {
 </motion.div>
 <div className={ css.card}>
     <div  className={ css.cardimage} >
-      <img    src="./gym.jpg" alt="Project"  style={{ height:"270px" }}/>
+      <img    src={gym} alt="Project"  style={{ height:"270px" }}/>
     </div>
     <div className={ css.category}> <a  href="">Github</a>  </div>
     <div className={ css.heading} > project Delivery <br/> using : HTML+CSS+js+JQuery+Php
@@ -50,7 +56,7 @@ export const Portfilo = () => {
 
 <motion.div className={ css.card}  variants={fadeIn("right","tween",0.5,0.6)} >
     <div  className={ css.cardimage} >
-      <img  src="./website AcademiLearning.jpg" alt="Project"  style={{ height:"270px" }} />
+      <img  src={AcademiLearning} alt="Project"  style={{ height:"270px" }} />
     </div>
     <div className={ css.category}> <a  href="">Github</a>  </div>
     <div className={ css.heading} > Education Online <br/> using :HTML+CSS
@@ -60,7 +66,7 @@ export const Portfilo = () => {
 
 <motion.div className={ css.card}  variants={fadeIn("up","tween",0.5,0.6)} >
     <div  className={ css.cardimage} >
-      <img   src="./Smart Watch.jpg" alt="Project"  style={{ height:"270px" }}  />
+      <img   src={Watch} alt="Project"  style={{ height:"270px" }}  />
     </div>
     <div className={ css.category}> <a  href="">Github</a>  </div>
     <div className={ css.heading} > Store Smart Watch<br/> using : HTML+CSS
@@ -72,7 +78,7 @@ export const Portfilo = () => {
 
 <div className={ css.card}>
     <div  className={ css.cardimage} >
-      <img     src="./timerTime.jpg" alt="Project" /> 
+      <img     src={timerTime} alt="Project" /> 
     </div>
     <div className={ css.category}> <a  href="">Github</a>  </div>
     <div className={ css.heading} > Timer Time <br/>  using : HTML+CSS+js+API
@@ -83,7 +89,7 @@ export const Portfilo = () => {
 
 <motion.div className={ css.card}  variants={fadeIn("up","tween",0.5,0.6)} >
     <div  className={ css.cardimage} >
-      <img    src="./NonaProduct.jpg" alt="Project"    />
+      <img    src={NonaProduct} alt="Project"    />
     </div>
     <div className={ css.category}> <a  href="">Github</a>  </div>
     <div className={ css.heading} > Store webSite <br/>  using : HTML+CSS+js
