@@ -85,7 +85,7 @@ export const Hero = () => {
         </div>
 
 <div className={css.containerShare}>
-<p>Follow us</p>
+<p>Follow Me</p>
 
 <motion.div
   variants={fadeIn("right", "tween", 0.2, 1)}
