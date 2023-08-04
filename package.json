@@ -1,6 +1,6 @@
 {
   "homepage": "https://EngYemen21.github.io/Myprofile/",
-  "name": "personal-portfolio-2",
+  "name": "personalportfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,15 +9,14 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist"
-
-    
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "emailjs-com": "^3.2.0",
     "file-saver": "^2.0.5",
     "framer-motion": "^8.0.2",
+    "npm": "^9.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
