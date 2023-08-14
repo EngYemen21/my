@@ -8,9 +8,10 @@ import { Portfilo } from "./Components/Portfilo/Portfilo";
 import { Skill } from "./Components/Skilles/Skill";
 import global from './styles/global.scss';
 import css from "./styles/app.module.scss";
+
 const App = () => {
   return (
-    <div className={`bg-primary background`} style={{ color: "white" , backgroundImage:"url('./wallpaper6.jpg')"}}>
+    <div className={`bg-primary background ${css.back}`} style={{ color: "white" }}>
       <Header />
       <Hero />
       <Experties />

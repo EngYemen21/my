@@ -5,5 +5,18 @@
     position: relative;
     color : $primary;
     //height: 100vh;
+    background-color: red;
 
 }
+.back{
+    background-color:#0c3c52;
+    background-image: url('../../../public/wallpaper6.jpg');
+    background-image: url('./public/wallpaper6.jpg');
+    background-image: url('./wallpaper6.jpg');
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+  
+  }
