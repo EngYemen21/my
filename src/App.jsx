@@ -10,7 +10,7 @@ import global from './styles/global.scss';
 import css from "./styles/app.module.scss";
 const App = () => {
   return (
-    <div className={`bg-primary background`} style={{ color: "white", backgroundImage:('/public/wallpaper6.jpg')}}>
+    <div className={`bg-primary background`} style={{ color: "white", backgroundImage:('./wallpaper6.jpg')}}>
       <Header />
       <Hero />
       <Experties />
